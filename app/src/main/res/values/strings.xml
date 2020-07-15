@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SummerEngagementProgramJava</string>
+
+
+    <string name="btnCalendarAction">Calendar</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnCreateAccount">Create Account</string>
+    <string name="btnNext">Next</string>
+    <string name="btnSave">Save</string>
+    <string name="btnBackLogin">Go Back To Login</string>
+    <string name="btnBack">Back</string>
+
+
+
+    <string name="txtGuidelines">Please enter in the new date and then select which meeting you\'d like to change.</string>
+
+    <string name="txtMeetingOne">Meeting on: 7/20/2020</string>
+    <string name="txtMeetingTwo">Meeting on: 7/27/2020</string>
+    <string name="txtMeetingThree">Meeting on: 8/03/2020</string>
+
+    <string name="txtMeetingListOne">Adam Jackson, Max Cardwell, Ethan Watrud, Jake Dempsey, and Cameron Trumbo</string>
+    <string name="txtAttendeeDateOne">Date : </string>
+
+    <string name="txtMeetingListTwo"> Max Cardwell, Ethan Watrud, Elon Musk, and Bill Gates</string>
+    <string name="txtAttendeeDateTwo">Date : </string>
+
+    <string name="txtMeetingListThree"> Elon Musk, Bill Gates, Schafer Cunningham, Cody Rutherford, and James Krape</string>
+    <string name="txtAttendeeDateThree">Date : </string>
+
+
+    <string name="txtUpcomingMeetings">You have upcoming meetings on the following dates, please click date to see attendees and time.</string>
+    <string name="txtUpcomingMeetingSlotOne">7/20/2020</string>
+    <string name="txtUpcomingMeetingSlotTwo">7/27/2020</string>
+    <string name="txtUpcomingMeetingSlotThree">8/03/2020</string>
+
+
+    <string name="txtWelcome">Welcome</string>
+    <string name="txtEditUsername">Username</string>
+    <string name="txtEditPassword">Password</string>
+    <string name="txtUsername">Username</string>
+    <string name="txtPassword">Password</string>
+    <string name="txtUpcomingEvents">Upcoming Events</string>
+
+    <string name="write_note">Write date here (m/d/yyyy);</string>
+    <string name="ChangeMeetingOne">Change Meeting One Date</string>
+    <string name="ChangeMeetingTwo">Change Meeting Two Date</string>
+    <string name="ChangeMeetingThree">Change Meeting Three Date</string>
+    <string name="no_note">No Note</string>
+
+
+</resources>

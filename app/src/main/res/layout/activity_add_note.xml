@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9A9A9"
+    android:screenOrientation="portrait"
+    tools:context=".addNote">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBackLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBackLogin"
+        android:textColor="@android:color/black"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addNoteButtonOne"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ChangeMeetingOne"
+        android:textColor="@android:color/black"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addNoteButtonTwo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ChangeMeetingTwo"
+        android:textColor="@android:color/black"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/addNoteButtonOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addNoteButtonThree"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ChangeMeetingThree"
+        android:textColor="@android:color/black"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/addNoteButtonTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/noteEditText"
+        android:layout_width="0dp"
+        android:layout_height="72dp"
+        android:gravity="top"
+        android:hint="@string/write_note"
+        app:layout_constraintBottom_toTopOf="@id/addNoteButtonOne"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtGuidelines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/txtGuidelines"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/noteEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

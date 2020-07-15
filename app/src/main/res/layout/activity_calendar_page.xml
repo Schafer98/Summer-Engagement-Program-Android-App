@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9A9A9"
+    android:screenOrientation="portrait"
+    tools:context=".CalendarPage">
+
+
+
+    <CalendarView
+        android:id="@+id/MeetingCalendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.10" />
+
+    <TextView
+        android:id="@+id/txtUpcomingMeeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:text="@string/txtUpcomingMeetings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MeetingCalendarView" />
+
+    <TextView
+        android:id="@+id/txtDateOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:text="@string/txtUpcomingMeetingSlotOne"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUpcomingMeeting" />
+
+    <TextView
+        android:id="@+id/txtDateTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:text="@string/txtUpcomingMeetingSlotTwo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDateOne" />
+
+    <TextView
+        android:id="@+id/txtDateThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:text="@string/txtUpcomingMeetingSlotThree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDateTwo" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCalendarBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        app:backgroundTint="@color/colorAccent"
+        android:text="@string/btnBack"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCalendarBackLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        app:backgroundTint="@color/colorAccent"
+        android:text="@string/btnBackLogin"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
